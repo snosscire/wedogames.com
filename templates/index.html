@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="section">
+	<div class="container is-max-desktop">
+		<header>
+			<img src="wedogames.png" alt="WEDOGAMES">
+		</header>
+
+		<div class="block headline">
+			<p>Our collection of games we have released throughout the years.</p>
+		</div>
+
+		{% for game in section.pages %}
+		<section class="game">
+			<div class="columns">
+				<div class="column is-narrow screenshot">
+					<img src="games/{{ game.slug }}/screenshot.png" alt="Screenshot">
+					<div class="icons">
+						{% if game.extra.url_github %}
+						<a href="{{ game.extra.url_github }}" title="GitHub">
+							<i class="fa fa-github" aria-hidden="true"></i>
+						</a>
+						{% endif %}
+						{% if game.extra.url_sceneorg %}
+						<a href="{{ game.extra.url_sceneorg }}" title="scene.org">
+							<i class="fa fa-snowflake-o" aria-hidden="true"></i>
+						</a>
+						{% endif %}
+						{% if game.extra.url_pouet %}
+						<a href="{{ game.extra.url_pouet }}" title="pouët.net">
+							<i class="fa fa-cube" aria-hidden="true"></i>
+						</a>
+						{% endif %}
+						{% if game.extra.url_itchio %}
+						<a href="{{ game.extra.url_itchio }}" title="itch.io">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</a>
+						{% endif %}
+						{% if game.extra.file %}
+						<a href="{{ game.slug }}/{{ game.extra.file }}" title="Download">
+							<i class="fa fa-download" aria-hidden="true"></i>
+						</a>
+						{% endif %}
+					</div>
+				</div>
+				<div class="column">
+					<h2>{{ game.title }}</h2>
+					{{ game.content | safe }}
+				</div>
+			</div>
+		</section>
+		{% endfor %}
+	</div>
+</div>
+{% endblock content %}
