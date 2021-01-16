@@ -18,6 +18,20 @@ header {
 	padding-bottom: 3rem;
 }
 
+footer {
+	color: $nord4;
+}
+
+a {
+	color: $nord8;
+}
+
+a:hover {
+	color: $nord8;
+	background-color: $nord3;
+	border-radius: 4px;
+}
+
 .headline {
 	font-size: 150%;
 	text-align: center;
@@ -42,16 +56,6 @@ section.game {
 
 	p {
 		margin-bottom: 1rem;
-
-		a {
-			color: $nord8;
-		}
-
-		a:hover {
-			color: $nord8;
-			background-color: $nord3;
-			border-radius: 4px;
-		}
 	}
 
 	strong {
@@ -89,20 +93,16 @@ section.game {
 		a {
 			margin-left: 0.1rem;
 			margin-right: 0.1rem;
+			color: $nord6;
+		}
+
+		a:hover {
+			color: $nord4;
 		}
 	}
 
 	img {
 		border: 1px solid $nord4;
 		border-radius: 4px;
-	}
-
-
-	a {
-		color: $nord6;
-	}
-
-	a:hover {
-		color: $nord4;
 	}
 }
