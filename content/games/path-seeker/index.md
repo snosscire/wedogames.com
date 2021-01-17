@@ -3,6 +3,7 @@ title = "Path Seeker"
 date = 2018-05-13
 [extra]
 url_sceneorg = "https://files.scene.org/view/parties/2018/birdie18/gamedev/172-snosscire-path_seeker.zip"
+url_itchio = "https://wedogames.itch.io/path-seeker"
 +++
 Rouge lite/minesweeper mashup. The goal is to reach as low floor as possible.
 
