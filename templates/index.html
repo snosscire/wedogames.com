@@ -15,8 +15,8 @@
 		{% for game in section.pages %}
 		<section class="game">
 			<div class="columns">
-				<div class="column is-narrow screenshot">
-					<img src="games/{{ game.slug }}/screenshot.png" alt="Screenshot">
+				<div class="column is-narrow">
+					<img src="games/{{ game.slug }}/screenshot.png" alt="Screenshot" width="440" height="248">
 					<div class="icons">
 						{% if game.extra.url_github %}
 						<a href="{{ game.extra.url_github }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
