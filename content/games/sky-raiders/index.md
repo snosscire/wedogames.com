@@ -9,10 +9,10 @@ url_github = "https://github.com/snosscire/Sky-Raiders"
 Multiplayer death match with up to 8 players. You have two minutes to shoot down
 the most enemies. The player with the most kills at the end of the round is the winner.
 
-Control the plane with the arrow keys (`↑`, `↓`, `←`, `→`) and shoot with `space`.
+Control the airplane with the arrow keys (`↑`, `↓`, `←`, `→`) and shoot with `space`.
 Show the current score with `tab`. Exit from the game with `esc`.
 
-First released at [Birdie 11](https://www.birdie.org/en/).
+Released at [Birdie 11](https://www.birdie.org/en/).
 
 Code by [snosscire](https://github.com/snosscire/).
 Gfx and sndfx by [slundal](http://slundal.com/).

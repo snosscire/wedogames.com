@@ -17,7 +17,7 @@ you've collected. But remember if you die you loose all the coins you've collect
 
 Resolution can be adjusted in the `Game.ini` file. 
 
-First released at [Birdie 15](https://www.birdie.org/en/).
+Released at [Birdie 15](https://www.birdie.org/en/).
 
 Code by [snosscire](https://github.com/snosscire/).
 Gfx and sndfx by [slundal](http://slundal.com/).

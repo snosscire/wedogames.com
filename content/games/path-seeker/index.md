@@ -15,7 +15,7 @@ When you've uncovered all tiles with no monsters you've cleared the room and
 the doors to other rooms or if you are lucky the stairs down to the next level
 will reveal itself.
 
-If you happen to step on a monster you have to fight it. Be careful thought.
+If you happen to step on a monster you have to fight it. Be careful though.
 When you fight monsters you loose health. When you've lost all our health
 the game is over.
 
@@ -25,7 +25,7 @@ experience and you gain a level and your health is replenished and you grow stro
 Control player with arrow keys (`↑`, `↓`, `←`, `→`). Click on buttons with mouse.
 You can use `enter` for some buttons.
 
-First released at [Birdie 18](https://www.birdie.org/en/).
+Released at [Birdie 18](https://www.birdie.org/en/).
 
 Code and gfx by [snosscire](https://github.com/snosscire/).
 Music by [slundal](http://slundal.com/).

@@ -15,6 +15,6 @@ destroy an asteroid gets longer.
 
 Challenge your friends and see who is the faster typist!
 
-First released at [Birdie 16](https://www.birdie.org/en/).
+Released at [Birdie 16](https://www.birdie.org/en/).
 
 Code and gfx by [snosscire](https://github.com/snosscire/).

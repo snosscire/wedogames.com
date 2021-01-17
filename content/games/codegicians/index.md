@@ -53,7 +53,7 @@ this port opened in your firewall.
 To make the game client connect to your server modify
 the configuration file `config.txt`.
 
-First released at [Birdie 17](https://www.birdie.org/en/).
+Released at [Birdie 17](https://www.birdie.org/en/).
 
 Code by [snosscire](https://github.com/snosscire/).
 Gfx from [OpenGameArt.org](https://opengameart.org/).
