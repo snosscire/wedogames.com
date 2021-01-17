@@ -13,7 +13,7 @@ You play as a robot whose mission it is to collect as many coins as possible in 
 The robot moves by itself and it is your job to avoid all obstacles by either jumping
 (`space`) or ducking (`↓`). Once you've run the whole course you can either run again
 to try and collect more coins or you can wait until the round ends to save the coins
-you've collected. But remember if you die you loose all the coins you've collected.
+you've collected. But remember if you die you lose all the coins you've collected.
 
 Resolution can be adjusted in the `Game.ini` file. 
 
